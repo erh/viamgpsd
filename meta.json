@@ -1,0 +1,13 @@
+{
+  "module_id": "erh:viamgpsd",
+  "visibility": "public",
+  "url": "https://github.com/erh/viamgpsd",
+  "description": "movement sensor module for gpsd daemon",
+  "models": [
+    {
+      "api": "rdk:component:movement_sensor",
+      "model": "erh:viamgpsd:gps"
+    }
+  ],
+  "entrypoint": "./bin/viamgpsd"
+}
